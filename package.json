@@ -1,0 +1,41 @@
+{
+  "name": "controleestoque",
+  "version": "1.0.0",
+  "description": "Projeto de controle de estoque usando NodeJS e ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"npm run server\" \" npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonhsady/ControleEstoque.git"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "react",
+    "react.js",
+    "materialui"
+  ],
+  "author": "Jonathan Sady",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jonhsady/ControleEstoque/issues"
+  },
+  "homepage": "https://github.com/Jonhsady/ControleEstoque#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "sequelize": "^6.6.2",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.2",
+    "nodemon": "^2.0.7"
+  }
+}
